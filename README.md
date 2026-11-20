@@ -5,13 +5,13 @@
 <img width="100%" src="./assets/hero-banner.svg" alt="Aho1ic Cyber Wave Banner" />
 
 <a href="https://github.com/Aho1ic">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3200&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&lines=Building+Native+AI+Agent+Workspaces+%28Rust+%2B+SwiftUI%29;Crafting+Self-Hosted+Mail+%26+WireGuard+Infra+%28Go%29;AI+Coding+Agent+Tinkerer+%C2%B7+macOS+%2F+Xcode+%2F+Ghostty;Nanjing+%C2%B7+%E9%80%A0%E7%89%A9%E8%80%8C%E5%B7%B2%EF%BC%8C%E5%B0%BD%E5%BF%83%E8%80%8C%E5%B7%B2" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3200&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&lines=Building+Native+AI+Agent+Workspaces+%28Rust+%2B+SwiftUI%29;Crafting+Self-Hosted+Mail+%26+WireGuard+Infra+%28Go%29;AI+Coding+Agent+Tinkerer+%C2%B7+macOS+%2F+Xcode+%2F+Zed;Nanjing+%C2%B7+%E9%80%A0%E7%89%A9%E8%80%8C%E5%B7%B2%EF%BC%8C%E5%B0%BD%E5%BF%83%E8%80%8C%E5%B7%B2" alt="Typing SVG" />
 </a>
 
 <p>
   <sub>Welcome, the</sub>&nbsp;
   <a href="https://github.com/Aho1ic">
-    <img src="https://count.getloli.com/get/@Aho1ic?theme=nixie-1" height="36" align="absmiddle" alt="Visitor Counter" />
+    <img src="https://count.getloli.com/get/@Aho1ic?theme=nixietube-1&padding=6" height="52" align="absmiddle" alt="Visitor Counter" />
   </a>
   &nbsp;<sub>th visitor!</sub>
 </p>
@@ -205,12 +205,12 @@
       <img src="https://img.shields.io/badge/macOS-Apple%20Silicon-161b22?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" />
       <br />
       <img src="https://img.shields.io/badge/Xcode-Native%20Apple-147EFB?style=for-the-badge&logo=xcode&logoColor=white" alt="Xcode" />
-      <img src="https://img.shields.io/badge/Ghostty-Terminal-0d1117?style=for-the-badge&logo=ghostty&logoColor=58a6ff" alt="Ghostty" />
+      <img src="https://img.shields.io/badge/Zed-Editor-084CCF?style=for-the-badge&logo=zedindustries&logoColor=white" alt="Zed" />
       <br />
       <img src="https://img.shields.io/badge/Claude%20Code-Agent-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code" />
       <img src="https://img.shields.io/badge/Git-Workflow-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
       <br /><br />
-      <sub>主力在 macOS 上用 Ghostty + Xcode + AI Coding Agent 驱动全栈原生与自托管基建开发。</sub>
+      <sub>主力在 macOS 上用 Xcode + Zed + AI Coding Agent 驱动全栈原生与自托管基建开发。</sub>
     </td>
     <td width="52%" valign="middle" align="center">
       <a href="https://ghfind.com/u/Aho1ic?ref=badge">
