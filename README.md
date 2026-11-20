@@ -5,7 +5,7 @@
 <img width="100%" src="./assets/hero-banner.svg" alt="Aho1ic Cyber Wave Banner" />
 
 <a href="https://github.com/Aho1ic">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3200&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+Native+AI+Agent+Workspaces+%28Rust+%2B+SwiftUI%29;Crafting+Self-Hosted+Mail+%26+WireGuard+Infra+%28Go%29;AI+Coding+Agent+Tinkerer+%C2%B7+macOS+%2F+Xcode+%2F+Zed;Nanjing+%C2%B7+%E5%86%99%E8%B6%81%E6%89%8B%E7%9A%84%E5%B7%A5%E5%85%B7%EF%BC%8C%E9%80%A0%E8%87%AA%E7%94%B1%E7%9A%84%E7%B3%BB%E7%BB%9F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3200&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+Native+AI+Agent+Workspaces+%28Rust+%2B+SwiftUI%29;Crafting+Self-Hosted+Mail+%26+WireGuard+Infra+%28Go%29;AI+Coding+Agent+Tinkerer+%C2%B7+macOS+%2F+Xcode+%2F+Zed;Nanjing+%C2%B7+Ship+native%2C+stay+minimal." alt="Typing SVG" />
 </a>
 
 <p>
@@ -36,9 +36,9 @@
   <img width="100%" src="./assets/glowing-divider.svg" alt="Glowing Divider" />
 </p>
 
-<!-- =========================== featured builds ============================= -->
+<!-- =========================== featured projects =========================== -->
 
-## ❯ Featured Builds · 核心造物
+## ❯ Featured Projects · 精选项目
 
 <table>
   <tr>
