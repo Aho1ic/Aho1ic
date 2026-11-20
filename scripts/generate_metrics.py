@@ -207,7 +207,7 @@ def render_svg(data: dict) -> str:
   <defs>
     <style>
       .mono {{
-        font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Fira Code', Menlo, Monaco, Consolas, 'PingFang SC', monospace;
+        font-family: 'PingFang SC', 'PingFang TC', 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, sans-serif;
       }}
     </style>
   </defs>

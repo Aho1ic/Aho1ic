@@ -5,16 +5,8 @@
 <img width="100%" src="./assets/hero-banner.svg" alt="Aho1ic Cyber Wave Banner" />
 
 <a href="https://github.com/Aho1ic">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3200&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&lines=Building+Native+AI+Agent+Workspaces+%28Rust+%2B+SwiftUI%29;Crafting+Self-Hosted+Mail+%26+WireGuard+Infra+%28Go%29;AI+Coding+Agent+Tinkerer+%C2%B7+macOS+%2F+Xcode+%2F+Zed;Nanjing+%C2%B7+%E9%80%A0%E7%89%A9%E8%80%8C%E5%B7%B2%EF%BC%8C%E5%B0%BD%E5%BF%83%E8%80%8C%E5%B7%B2" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3200&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+Native+AI+Agent+Workspaces+%28Rust+%2B+SwiftUI%29;Crafting+Self-Hosted+Mail+%26+WireGuard+Infra+%28Go%29;AI+Coding+Agent+Tinkerer+%C2%B7+macOS+%2F+Xcode+%2F+Zed;Nanjing+%C2%B7+%E5%86%99%E8%B6%81%E6%89%8B%E7%9A%84%E5%B7%A5%E5%85%B7%EF%BC%8C%E9%80%A0%E8%87%AA%E7%94%B1%E7%9A%84%E7%B3%BB%E7%BB%9F" alt="Typing SVG" />
 </a>
-
-<p>
-  <sub>Welcome, the</sub>&nbsp;
-  <a href="https://github.com/Aho1ic">
-    <img src="https://count.getloli.com/get/@Aho1ic?theme=nixietube-1&padding=6" height="52" align="absmiddle" alt="Visitor Counter" />
-  </a>
-  &nbsp;<sub>th visitor!</sub>
-</p>
 
 <p>
   <a href="mailto:lyx901666@gmail.com">
@@ -22,6 +14,9 @@
   </a>
   <a href="https://www.xiaohongshu.com/search_result?keyword=404973799">
     <img src="https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-404973799-ff2442?style=flat-square&labelColor=0d1117&logo=xiaohongshu&logoColor=white" alt="小红书 404973799" />
+  </a>
+  <a href="https://github.com/Aho1ic">
+    <img src="https://hits.sh/github.com/Aho1ic.svg?style=flat-square&label=Views&color=58a6ff&labelColor=0d1117" alt="Profile Views" />
   </a>
   <a href="https://github.com/Aho1ic?tab=followers">
     <img src="https://img.shields.io/github/followers/Aho1ic?label=Followers&style=flat-square&color=3fb950&labelColor=0d1117&logo=github&logoColor=white" alt="GitHub Followers" />

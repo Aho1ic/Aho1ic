@@ -10,7 +10,7 @@
 
     <style>
       .mono {
-        font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Fira Code', Menlo, Monaco, Consolas, 'PingFang SC', 'Microsoft YaHei', monospace;
+        font-family: 'PingFang SC', 'PingFang TC', 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, sans-serif;
       }
       .line {
         opacity: 0;
@@ -72,54 +72,53 @@
     </g>
   </g>
 
-  <!-- 右侧逐行启动日志 -->
+  <!-- 右侧逐行启动日志（双列固定 x 对齐，适配苹方与 JetBrains Mono） -->
   <g transform="translate(192, 80)" font-size="13.5" class="mono">
     <text x="0" y="0" class="line l1">
       <tspan fill="#3fb950" font-weight="700">$</tspan>
       <tspan fill="#e6edf3" dx="8">./aho1ic --boot --profile=full</tspan>
     </text>
 
-    <text x="0" y="34" class="line l2">
-      <tspan fill="#58a6ff">[INFO]</tspan>
-      <tspan fill="#c9d1d9" dx="8">Mounting </tspan>
+    <text y="34" class="line l2">
+      <tspan x="0" fill="#58a6ff" font-weight="600">[BOOT]</tspan>
+      <tspan x="66" fill="#c9d1d9">Mounting </tspan>
       <tspan fill="#7aa2f7" font-weight="700">Aeroric</tspan>
       <tspan fill="#8b949e"> (Rust Core + Native SwiftUI macOS/iOS)</tspan>
     </text>
 
-    <text x="0" y="66" class="line l3">
-      <tspan fill="#3fb950" filter="url(#glow)">[ OK ]</tspan>
-      <tspan fill="#c9d1d9" dx="8">Agents linked: Claude Code · Codex · omp · DeepSeek Harness</tspan>
+    <text y="66" class="line l3">
+      <tspan x="0" fill="#3fb950" font-weight="600" filter="url(#glow)">[LINK]</tspan>
+      <tspan x="66" fill="#c9d1d9">Agents linked: Claude Code · Codex · omp · DeepSeek Harness</tspan>
     </text>
 
-    <text x="0" y="98" class="line l4">
-      <tspan fill="#e0af68">[NEXT]</tspan>
-      <tspan fill="#c9d1d9" dx="8">Warming </tspan>
+    <text y="98" class="line l4">
+      <tspan x="0" fill="#e0af68" font-weight="600">[NEXT]</tspan>
+      <tspan x="66" fill="#c9d1d9">Warming </tspan>
       <tspan fill="#e0af68" font-weight="700">NexusMail</tspan>
       <tspan fill="#8b949e"> (Go + SwiftUI · Unified Mail &amp; TempMail)</tspan>
     </text>
 
-    <text x="0" y="130" class="line l5">
-      <tspan fill="#3fb950" filter="url(#glow)">[ OK ]</tspan>
-      <tspan fill="#c9d1d9" dx="8">Mesh active: </tspan>
-      <tspan fill="#9ece6a" font-weight="700">Fylakie</tspan>
-      <tspan fill="#8b949e"> WireGuard multi-VPS monitor (3s probe)</tspan>
+    <text y="130" class="line l5">
+      <tspan x="0" fill="#3fb950" font-weight="600" filter="url(#glow)">[MESH]</tspan>
+      <tspan x="66" fill="#9ece6a" font-weight="700">Fylakie</tspan>
+      <tspan fill="#c9d1d9"> WireGuard multi-VPS monitor online</tspan>
+      <tspan fill="#8b949e"> (3s probe)</tspan>
     </text>
 
-    <text x="0" y="162" class="line l6">
-      <tspan fill="#3fb950" filter="url(#glow)">[ OK ]</tspan>
-      <tspan fill="#c9d1d9" dx="8">Gateway plugin: </tspan>
-      <tspan fill="#bb9af3" font-weight="700">mimo-cpa</tspan>
-      <tspan fill="#8b949e"> OpenAI / Anthropic SSE bridge</tspan>
+    <text y="162" class="line l6">
+      <tspan x="0" fill="#bb9af3" font-weight="600" filter="url(#glow)">[SYNC]</tspan>
+      <tspan x="66" fill="#bb9af3" font-weight="700">mimo-cpa</tspan>
+      <tspan fill="#c9d1d9"> OpenAI / Anthropic SSE bridge active</tspan>
     </text>
 
-    <text x="0" y="194" class="line l7">
-      <tspan fill="#7982a9">[STACK]</tspan>
-      <tspan fill="#c9d1d9" dx="6">Rust · Go · SwiftUI · TypeScript · SQLite · WireGuard</tspan>
+    <text y="194" class="line l7">
+      <tspan x="0" fill="#7982a9" font-weight="600">[CORE]</tspan>
+      <tspan x="66" fill="#c9d1d9">Rust · Go · SwiftUI · TypeScript · SQLite · WireGuard</tspan>
     </text>
 
-    <text x="0" y="226" class="line l8">
-      <tspan fill="#2ac3de" font-weight="700" filter="url(#glow)">[LIVE]</tspan>
-      <tspan fill="#e6edf3" dx="8">Ready in Nanjing — building native tools &amp; agent infra.</tspan>
+    <text y="226" class="line l8">
+      <tspan x="0" fill="#2ac3de" font-weight="700" filter="url(#glow)">[LIVE]</tspan>
+      <tspan x="66" fill="#e6edf3">Ready in Nanjing — building native tools &amp; agent infra.</tspan>
       <tspan fill="#58a6ff" dx="6" class="cursor">▮</tspan>
     </text>
   </g>
