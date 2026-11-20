@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 54" width="860" height="54" role="img" aria-label="Tech Stack Marquee">
+  <defs>
+    <linearGradient id="edge-fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="6%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="94%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+
+    <mask id="fade-mask">
+      <rect width="860" height="54" fill="url(#edge-fade)" />
+    </mask>
+
+    <filter id="chip-glow" x="-18%" y="-25%" width="136%" height="150%">
+      <feGaussianBlur stdDeviation="1.4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      .chip-text {
+        font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace;
+        font-size: 13px;
+        font-weight: 700;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+      .track {
+        animation: marquee 24s linear infinite;
+      }
+      svg:hover .track {
+        animation-play-state: paused;
+      }
+      @keyframes marquee {
+        0% { transform: translate3d(0, 0, 0); }
+        100% { transform: translate3d(-1260px, 0, 0); }
+      }
+    </style>
+
+    <!-- 单组宽度精确等于 1260px，确保循环零跳变 -->
+    <g id="stack-group">
+      <g transform="translate(0, 0)">
+        <rect width="82" height="30" rx="8" fill="#1d1816" stroke="#dea584" stroke-width="1.4" filter="url(#chip-glow)" />
+        <text x="41" y="15" fill="#dea584" class="chip-text">Rust</text>
+      </g>
+      <g transform="translate(96, 0)">
+        <rect width="66" height="30" rx="8" fill="#101f27" stroke="#00add8" stroke-width="1.4" filter="url(#chip-glow)" />
+        <text x="33" y="15" fill="#00add8" class="chip-text">Go</text>
+      </g>
+      <g transform="translate(176, 0)">
+        <rect width="94" height="30" rx="8" fill="#231615" stroke="#f05138" stroke-width="1.4" filter="url(#chip-glow)" />
+        <text x="47" y="15" fill="#f05138" class="chip-text">SwiftUI</text>
+      </g>
+      <g transform="translate(284, 0)">
+        <rect width="118" height="30" rx="8" fill="#111d2c" stroke="#58a6ff" stroke-width="1.4" filter="url(#chip-glow)" />
+        <text x="59" y="15" fill="#58a6ff" class="chip-text">TypeScript</text>
+      </g>
+      <g transform="translate(416, 0)">
+        <rect width="88" height="30" rx="8" fill="#1f1e14" stroke="#ffde57" stroke-width="1.4" filter="url(#chip-glow)" />
+        <text x="44" y="15" fill="#ffde57" class="chip-text">Python</text>
+      </g>
+      <g transform="translate(518, 0)">
+        <rect width="124" height="30" rx="8" fill="#231915" stroke="#d97757" stroke-width="1.4" filter="url(#chip-glow)" />
+        <text x="62" y="15" fill="#d97757" class="chip-text">Claude Code</text>
+      </g>
+      <g transform="translate(656, 0)">
+        <rect width="84" height="30" rx="8" fill="#161b2e" stroke="#7a9dff" stroke-width="1.4" filter="url(#chip-glow)" />
+        <text x="42" y="15" fill="#7a9dff" class="chip-text">Codex</text>
+      </g>
+      <g transform="translate(754, 0)">
+        <rect width="68" height="30" rx="8" fill="#1a1d24" stroke="#c9d1d9" stroke-width="1.4" filter="url(#chip-glow)" />
+        <text x="34" y="15" fill="#e6edf3" class="chip-text">MCP</text>
+      </g>
+      <g transform="translate(836, 0)">
+        <rect width="112" height="30" rx="8" fill="#112119" stroke="#3fb950" stroke-width="1.4" filter="url(#chip-glow)" />
+        <text x="56" y="15" fill="#3fb950" class="chip-text">WireGuard</text>
+      </g>
+      <g transform="translate(962, 0)">
+        <rect width="86" height="30" rx="8" fill="#121e2b" stroke="#38bdf8" stroke-width="1.4" filter="url(#chip-glow)" />
+        <text x="43" y="15" fill="#38bdf8" class="chip-text">SQLite</text>
+      </g>
+      <g transform="translate(1062, 0)">
+        <rect width="88" height="30" rx="8" fill="#111d29" stroke="#2496ed" stroke-width="1.4" filter="url(#chip-glow)" />
+        <text x="44" y="15" fill="#2496ed" class="chip-text">Docker</text>
+      </g>
+      <g transform="translate(1164, 0)">
+        <rect width="82" height="30" rx="8" fill="#122129" stroke="#61dafb" stroke-width="1.4" filter="url(#chip-glow)" />
+        <text x="41" y="15" fill="#61dafb" class="chip-text">React</text>
+      </g>
+    </g>
+  </defs>
+
+  <g mask="url(#fade-mask)">
+    <g class="track">
+      <use href="#stack-group" x="0" y="12" />
+      <use href="#stack-group" x="1260" y="12" />
+    </g>
+  </g>
+</svg>

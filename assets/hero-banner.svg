@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="900" height="230" role="img" aria-label="Aho1ic Cyber Wave Banner">
+  <defs>
+    <clipPath id="banner-clip">
+      <rect x="0" y="0" width="900" height="230" rx="16" ry="16" />
+    </clipPath>
+
+    <linearGradient id="sky-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="48%" stop-color="#173050" />
+      <stop offset="82%" stop-color="#1e4470" />
+      <stop offset="100%" stop-color="#0f1d33" />
+    </linearGradient>
+
+    <radialGradient id="top-aura" cx="50%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.28" />
+      <stop offset="60%" stop-color="#3b82f6" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#0b1120" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e6edf3" />
+      <stop offset="45%" stop-color="#93c5fd" />
+      <stop offset="75%" stop-color="#e6edf3" />
+      <stop offset="100%" stop-color="#7ee787" />
+    </linearGradient>
+
+    <pattern id="grid-pattern" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#58a6ff" stroke-opacity="0.08" stroke-width="1" />
+    </pattern>
+
+    <filter id="title-glow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="dot-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono {
+        font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', 'Fira Code', Menlo, Monaco, Consolas, 'PingFang SC', monospace;
+      }
+      .sans {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+      }
+      .pulse-dot {
+        animation: pulse 2.2s ease-in-out infinite;
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.35; }
+      }
+      .wave-slow {
+        animation: waveMove 14s linear infinite;
+      }
+      .wave-mid {
+        animation: waveMove 9.5s linear infinite reverse;
+      }
+      .wave-fast {
+        animation: waveMove 6.8s linear infinite;
+      }
+      @keyframes waveMove {
+        0% { transform: translate3d(0, 0, 0); }
+        100% { transform: translate3d(-900px, 0, 0); }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#banner-clip)">
+    <!-- 背景与网格光晕 -->
+    <rect width="900" height="230" fill="url(#sky-bg)" />
+    <rect width="900" height="230" fill="url(#grid-pattern)" />
+    <rect width="900" height="230" fill="url(#top-aura)" />
+
+    <!-- 星点装饰 -->
+    <g fill="#93c5fd" opacity="0.55">
+      <circle cx="92" cy="48" r="1.5" />
+      <circle cx="176" cy="84" r="1.1" />
+      <circle cx="268" cy="36" r="1.3" />
+      <circle cx="642" cy="44" r="1.4" />
+      <circle cx="748" cy="76" r="1.2" />
+      <circle cx="814" cy="42" r="1.6" />
+    </g>
+
+    <!-- 顶角状态标签 -->
+    <g transform="translate(26, 24)">
+      <rect width="166" height="24" rx="12" fill="#0d1117" fill-opacity="0.55" stroke="#58a6ff" stroke-opacity="0.32" />
+      <circle cx="15" cy="12" r="3.5" fill="#3fb950" filter="url(#dot-glow)" class="pulse-dot" />
+      <text x="27" y="16" fill="#c9d1d9" font-size="11" class="mono">ONLINE · NANJING</text>
+    </g>
+
+    <g transform="translate(724, 24)">
+      <rect width="150" height="24" rx="12" fill="#0d1117" fill-opacity="0.55" stroke="#e0af68" stroke-opacity="0.32" />
+      <text x="75" y="16" fill="#e0af68" font-size="11" text-anchor="middle" class="mono">RUST · GO · SWIFT</text>
+    </g>
+
+    <!-- 主标题与副标题 -->
+    <text x="450" y="112" text-anchor="middle" font-size="56" font-weight="800" letter-spacing="3" fill="url(#title-grad)" filter="url(#title-glow)" class="sans">Aho1ic</text>
+    <text x="450" y="144" text-anchor="middle" font-size="14" letter-spacing="1.2" fill="#a5c4e8" class="mono">AI Agent Workspaces  ·  Self-Hosted Infra  ·  Native Systems</text>
+
+    <!-- 三层无缝动态波浪 -->
+    <g class="wave-slow" opacity="0.22">
+      <path d="M0,180 C150,152 300,208 450,180 C600,152 750,208 900,180 C1050,152 1200,208 1350,180 C1500,152 1650,208 1800,180 L1800,235 L0,235 Z" fill="#58a6ff" />
+    </g>
+    <g class="wave-mid" opacity="0.3">
+      <path d="M0,192 C150,218 300,164 450,192 C600,218 750,164 900,192 C1050,218 1200,164 1350,192 C1500,218 1650,164 1800,192 L1800,235 L0,235 Z" fill="#3b82f6" />
+    </g>
+    <g class="wave-fast" opacity="0.55">
+      <path d="M0,204 C150,186 300,222 450,204 C600,186 750,222 900,204 C1050,186 1200,222 1350,204 C1500,186 1650,222 1800,204 L1800,235 L0,235 Z" fill="#0d1117" />
+    </g>
+  </g>
+
+  <!-- 精致外描边 -->
+  <rect x="0.75" y="0.75" width="898.5" height="228.5" rx="15.5" ry="15.5" fill="none" stroke="#58a6ff" stroke-opacity="0.26" stroke-width="1.5" />
+</svg>
